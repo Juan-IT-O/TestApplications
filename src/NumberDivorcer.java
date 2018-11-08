@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class NumberDivorcer {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int tableSize, firstNumber, secondNumber, sumValidator, eliminationCount = 0;
+        int tableSize, sumValidator;
         int[] inputTable;
         int[] newTable;
-        boolean eliminationComplete = false,eliminationPerformed;
+        boolean eliminationComplete = false, eliminationPerformed=false;
         System.out.println("ile elementow zamierzasz wprowadzic?");
         tableSize = in.nextInt();
         inputTable = new int[tableSize];
@@ -17,37 +17,40 @@ public class NumberDivorcer {
         System.out.println("Podaj sume do jakiej maj sie sumowac pary liczb");
         sumValidator = in.nextInt();
 
-        while (!eliminationComplete) {
-            eliminationPerformed=false;
-            for (int i = 0; i < inputTable.length; i++) {
-                for (int j = i + 1; j < inputTable.length-1; j++) {
+       while (!eliminationComplete) {
+            eliminationPerformed = false;
+            for (int i = 0; i < inputTable.length-1; i++) {
+                for (int j = i + 1; j < inputTable.length; j++) {
                     if ((inputTable[i] + inputTable[j]) == sumValidator) {
-                        eliminationPerformed=true;
-                        newTable = new int[inputTable.length - 1];
-                        for (int z = 0; z < j;z++ ) {
-                            newTable[z]=inputTable[z];
-                        }
-                        //fixme null pointer
-                        for(int z=j;z<inputTable.length-1;z++){
-
-                            newTable[z]=inputTable[z+1];
-                        }
-                        inputTable=newTable;
+                        eliminationPerformed = true;
+                        inputTable = deleteElementFromTable(inputTable,j);
                     }
                 }
             }
-        if(!eliminationPerformed){
-            eliminationComplete=true;
-            break;
-        }
+            if (!eliminationPerformed) {
+                eliminationComplete = true;
+            }
 
         }
+
         System.out.println("tabela wynikow: ");
-        for (int number: inputTable){
+        for (int number : inputTable) {
             System.out.print(number + " ");
         }
         System.out.println("");
 
-
     }
+
+    static int[] deleteElementFromTable(int[] editedtable, int indexToRemove ){
+
+        int[] newTable = new int[editedtable.length-1];
+        for (int i = 0; i < indexToRemove; i++) {
+            newTable[i] = editedtable[i];
+        }
+        for (int i = indexToRemove; i < editedtable.length -1; i++) {
+            newTable[i] = editedtable[i+1];
+        }
+        return newTable;
+    }
+
 }

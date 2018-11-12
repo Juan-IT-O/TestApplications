@@ -5,8 +5,7 @@ public class NumberDivorcer {
         Scanner in = new Scanner(System.in);
         int tableSize, sumValidator;
         int[] inputTable;
-        int[] newTable;
-        boolean eliminationComplete = false, eliminationPerformed=false;
+        boolean eliminationComplete = false, eliminationPerformed;
         System.out.println("ile elementow zamierzasz wprowadzic?");
         tableSize = in.nextInt();
         inputTable = new int[tableSize];
@@ -37,7 +36,7 @@ public class NumberDivorcer {
         for (int number : inputTable) {
             System.out.print(number + " ");
         }
-        System.out.println("");
+        System.out.println();
 
     }
 

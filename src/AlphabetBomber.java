@@ -18,7 +18,6 @@ public class AlphabetBomber {
             if(letterChecker){
                 System.out.print((char)i + " ");
             }
-
         }
 
     }

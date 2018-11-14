@@ -17,7 +17,7 @@ public class Triangle extends Figure {
         this.sideC = sideC;
     }
 
-    @Override
+
     public double calculateArea() {
         double p = (sideA+sideB+sideC)/2;
         return Math.sqrt(p*(p-sideA)*(p-sideB)*(p-sideC));

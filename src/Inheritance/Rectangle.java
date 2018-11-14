@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Rectangle extends Figure{
+public class Rectangle extends Figure {
 
     protected double sideA, sideB;
 
@@ -18,10 +18,14 @@ public class Rectangle extends Figure{
         return sideB;
     }
 
-    public double calculateArea(){
-        return sideA*sideB;
+    public double calculateArea() {
+        return sideA * sideB;
     }
-    public double calculatePerimeter(){
-        return 2*(sideA+sideB);
+
+    public double calculatePerimeter() {
+        return 2 * (sideA + sideB);
+    }
+    public Rectangle copyRect(){
+        return new Rectangle(this.color, this.sideA, this.sideB);
     }
 }

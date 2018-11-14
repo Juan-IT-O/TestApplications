@@ -1,6 +1,6 @@
 package Inheritance;
 
-public abstract class Figure {
+public abstract class Figure implements AreaCountable {
 protected String color;
 
 public Figure(String color)
@@ -15,7 +15,6 @@ public Figure(String color)
     public void setColor(String color) {
         this.color = color;
     }
-    public abstract double calculateArea();
 }
 
 

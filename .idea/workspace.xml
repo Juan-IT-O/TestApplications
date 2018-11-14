@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="345bcdf2-f8c0-4f22-82a7-d5568aa1957c" name="Default Changelist" comment="preparing to push">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumberDivorcer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NumberDivorcer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringWars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringWars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestApplication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestApplication.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,9 +50,66 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-819789595">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1630" />
+          <entry key="txt" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1630" />
+          <entry key="PLAIN_TEXT" value="55" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlphabetBomber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BubbleNumberSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +117,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,6 +149,9 @@
         <option value="$PROJECT_DIR$/src/Calc.java" />
         <option value="$PROJECT_DIR$/src/NumberDivorcer.java" />
         <option value="$PROJECT_DIR$/src/StringWars.java" />
+        <option value="$PROJECT_DIR$/TestApplications/src/AlphabetBomber.java" />
+        <option value="$PROJECT_DIR$/src/AlphabetBomber.java" />
+        <option value="$PROJECT_DIR$/src/BubbleNumberSort.java" />
       </list>
     </option>
   </component>
@@ -98,10 +162,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="27" />
-    <option name="width" value="1088" />
-    <option name="height" value="1000" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -109,32 +173,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TestApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApplications" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApplications" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TestApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestApplication" type="462c0819:PsiDirectoryNode" />
+              <item name="TestApplications" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestApplications" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542031276624" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542062176274" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -148,7 +220,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringWars">
+  <component name="RunManager" selected="Application.BubbleNumberSort">
+    <configuration name="AlphabetBomber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AlphabetBomber" />
+      <module name="TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleNumberSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleNumberSort" />
+      <module name="TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calc" />
       <module name="TestApplication" />
@@ -156,22 +242,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxSearch" />
-      <module name="TestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NumberDivorcer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberDivorcer" />
-      <module name="TestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursiveFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursiveFunction" />
       <module name="TestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,17 +259,17 @@
     <list>
       <item itemvalue="Application.Calc" />
       <item itemvalue="Application.NumberDivorcer" />
-      <item itemvalue="Application.RecursiveFunction" />
-      <item itemvalue="Application.MaxSearch" />
       <item itemvalue="Application.StringWars" />
+      <item itemvalue="Application.AlphabetBomber" />
+      <item itemvalue="Application.BubbleNumberSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleNumberSort" />
+        <item itemvalue="Application.AlphabetBomber" />
+        <item itemvalue="Application.NumberDivorcer" />
         <item itemvalue="Application.StringWars" />
         <item itemvalue="Application.Calc" />
-        <item itemvalue="Application.NumberDivorcer" />
-        <item itemvalue="Application.MaxSearch" />
-        <item itemvalue="Application.RecursiveFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -215,6 +287,9 @@
       <workItem from="1541663887614" duration="23267000" />
       <workItem from="1541751537941" duration="15593000" />
       <workItem from="1542029147543" duration="2129000" />
+      <workItem from="1542047717819" duration="363000" />
+      <workItem from="1542048102024" duration="5586000" />
+      <workItem from="1542217804559" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="git init">
       <created>1541606808865</created>
@@ -230,16 +305,30 @@
       <option name="project" value="LOCAL" />
       <updated>1541693073918</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="AlphabetBomber file added">
+      <created>1542058630372</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542058630372</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BubbleNumberSort file added">
+      <created>1542062165151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542062165151</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66380000" />
+    <option name="totallyTimeSpent" value="73002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11686233" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21297836" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,16 +337,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30042017" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997227" weight="0.29989094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3304253" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027734" side_tool="true" weight="0.29989094" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32983193" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,6 +356,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +369,9 @@
     <MESSAGE value="git init" />
     <MESSAGE value="git function introduced to previously added programs. example nr 8 created" />
     <MESSAGE value="preparing to push" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparing to push" />
+    <MESSAGE value="AlphabetBomber file added" />
+    <MESSAGE value="BubbleNumberSort file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="BubbleNumberSort file added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.class" />
@@ -329,9 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -353,9 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="32" selection-start-line="32" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -380,21 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NumberDivorcer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="43" selection-start-line="43" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RecursiveFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#137#138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -419,5 +494,109 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestApplications/src/Absolute.java" />
+    <entry file="file://$PROJECT_DIR$/TestApplications/src/Logic.java" />
+    <entry file="file://$PROJECT_DIR$/TestApplications/src/StringWars.java" />
+    <entry file="file://$PROJECT_DIR$/TestApplications/src/Main.class" />
+    <entry file="file://$PROJECT_DIR$/TestApplications/out/production/TestApplication/Main.class" />
+    <entry file="file://$PROJECT_DIR$/src/NumberDivorcer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlphabetBomber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BubbleNumberSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TestApplication</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
